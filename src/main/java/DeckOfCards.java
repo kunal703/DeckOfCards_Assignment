@@ -5,6 +5,9 @@ class DeckOfCards {
 
     private ArrayList<Card> cards;
 
+    /**
+     *  Initialize the deck of cards
+     */
     DeckOfCards() {
 
         cards = new ArrayList<>();
@@ -17,19 +20,31 @@ class DeckOfCards {
         }
     }
 
-    void shuffle() {
+    /**
+     * Shuffle the remaining deck
+     */
+    public void shuffle() {
         Collections.shuffle(cards);
     }
 
-    Card dealOneCard() {
+    /**
+     *
+     * @return The dealed card
+     * @throws DeckEmptyException
+     */
+    public Card dealOneCard() throws DeckEmptyException{
         if(cards.size() == 0){
-            return null;
+            throw new DeckEmptyException("Deck is empty");
         }
         Card temp = cards.remove(0);
         temp.markUnavailable();
         return temp;
     }
 
+    /**
+     *
+     * @return The cards remaining in the deck
+     */
     ArrayList<Card> getCards() {
         return cards;
     }
