@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ets-deck-of-cards-artifact.iml" filepath="$PROJECT_DIR$/.idea/modules/ets-deck-of-cards-artifact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ets-deck-of-cards-artifact_main.iml" filepath="$PROJECT_DIR$/.idea/modules/ets-deck-of-cards-artifact_main.iml" group="ets-deck-of-cards-artifact" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/ets-deck-of-cards-artifact_test.iml" filepath="$PROJECT_DIR$/.idea/modules/ets-deck-of-cards-artifact_test.iml" group="ets-deck-of-cards-artifact" />
+    </modules>
+  </component>
+</project>
